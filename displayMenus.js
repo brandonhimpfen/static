@@ -5,8 +5,6 @@ function displayContentsByIds(contentsMap) {
 
     if (targetDiv) {
       targetDiv.innerHTML = contentsMap[id];
-    } else {
-      console.error(`Element with ID "${id}" not found.`);
     }
   }
 }
